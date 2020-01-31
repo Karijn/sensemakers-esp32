@@ -1,0 +1,256 @@
+(pcb "C:\Users\Karij\Documents\Arduino\esp-things\sensemakers-esp32\wemos-baseplate\wemos-baseplate\wemos-baseplate.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.5)-3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  217195 -144805  71095 -144805  71095 -71095  217195 -71095
+            217195 -144805)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "in2tech:QIP-40_1000_ELL"
+      (place U3 181370 -106680 front 0 (PN "ESP32-MINI-32"))
+      (place U2 144660 -106680 front 0 (PN "ESP32-MINI-32"))
+      (place U1 107950 -106680 front 0 (PN "ESP32-MINI-32"))
+    )
+  )
+  (library
+    (image "in2tech:QIP-40_1000_ELL"
+      (outline (path signal 150  13970 11430  -13970 11430))
+      (outline (path signal 150  13970 -8890  13970 11430))
+      (outline (path signal 150  -13970 -8890  13970 -8890))
+      (outline (path signal 150  -13970 11430  -13970 -8890))
+      (outline (path signal 120  17780 -15240  10160 -15240))
+      (outline (path signal 120  10160 12700  17780 12700))
+      (outline (path signal 120  17780 12700  17780 -15240))
+      (outline (path signal 120  10160 12700  10160 -15240))
+      (outline (path signal 120  -17780 -15240  -17780 12700))
+      (outline (path signal 120  -10160 -15240  -17780 -15240))
+      (outline (path signal 120  -10160 12700  -10160 -15240))
+      (outline (path signal 120  -17780 12700  -10160 12700))
+      (outline (path signal 150  -17780 19050  -17780 17780))
+      (outline (path signal 150  17780 19050  -17780 19050))
+      (outline (path signal 150  17780 -19050  17780 19050))
+      (outline (path signal 150  -17780 -19050  17780 -19050))
+      (outline (path signal 150  -17780 17780  -17780 -19050))
+      (pin Round[A]Pad_2500_um (rotate 270) @1 0 -16510)
+      (pin Round[A]Pad_2500_um (rotate 270) @2 0 16510)
+      (pin Round[A]Pad_1500_um (rotate 90) 34 15240 -5080)
+      (pin Round[A]Pad_1500_um (rotate 90) 37 15240 2540)
+      (pin Round[A]Pad_1500_um (rotate 90) 39 15240 7620)
+      (pin Round[A]Pad_1500_um (rotate 90) 40 15240 10160)
+      (pin Round[A]Pad_1500_um (rotate 90) 35 15240 -2540)
+      (pin Round[A]Pad_1500_um (rotate 90) 31 15240 -12700)
+      (pin Round[A]Pad_1500_um (rotate 90) 38 15240 5080)
+      (pin Round[A]Pad_1500_um (rotate 90) 36 15240 0)
+      (pin Round[A]Pad_1500_um (rotate 90) 33 15240 -7620)
+      (pin Round[A]Pad_1500_um (rotate 90) 32 15240 -10160)
+      (pin Round[A]Pad_1500_um (rotate 270) 24 -15240 2540)
+      (pin Round[A]Pad_1500_um (rotate 270) 27 -15240 -5080)
+      (pin Round[A]Pad_1500_um (rotate 270) 29 -15240 -10160)
+      (pin Round[A]Pad_1500_um (rotate 270) 30 -15240 -12700)
+      (pin Round[A]Pad_1500_um (rotate 270) 25 -15240 0)
+      (pin Round[A]Pad_1500_um (rotate 270) 21 -15240 10160)
+      (pin Round[A]Pad_1500_um (rotate 270) 28 -15240 -7620)
+      (pin Round[A]Pad_1500_um (rotate 270) 26 -15240 -2540)
+      (pin Round[A]Pad_1500_um (rotate 270) 23 -15240 5080)
+      (pin Round[A]Pad_1500_um (rotate 270) 22 -15240 7620)
+      (pin Round[A]Pad_1500_um (rotate 270) 10 -12700 -12700)
+      (pin Round[A]Pad_1500_um (rotate 270) 11 12700 -12700)
+      (pin Round[A]Pad_1500_um (rotate 270) 9 -12700 -10160)
+      (pin Round[A]Pad_1500_um (rotate 270) 12 12700 -10160)
+      (pin Round[A]Pad_1500_um (rotate 270) 8 -12700 -7620)
+      (pin Round[A]Pad_1500_um (rotate 270) 13 12700 -7620)
+      (pin Round[A]Pad_1500_um (rotate 270) 7 -12700 -5080)
+      (pin Round[A]Pad_1500_um (rotate 270) 14 12700 -5080)
+      (pin Round[A]Pad_1500_um (rotate 270) 6 -12700 -2540)
+      (pin Round[A]Pad_1500_um (rotate 270) 15 12700 -2540)
+      (pin Round[A]Pad_1500_um (rotate 270) 5 -12700 0)
+      (pin Round[A]Pad_1500_um (rotate 270) 16 12700 0)
+      (pin Round[A]Pad_1500_um (rotate 270) 4 -12700 2540)
+      (pin Round[A]Pad_1500_um (rotate 270) 17 12700 2540)
+      (pin Round[A]Pad_1500_um (rotate 270) 3 -12700 5080)
+      (pin Round[A]Pad_1500_um (rotate 270) 18 12700 5080)
+      (pin Round[A]Pad_1500_um (rotate 270) 2 -12700 7620)
+      (pin Round[A]Pad_1500_um (rotate 270) 19 12700 7620)
+      (pin Round[A]Pad_1500_um (rotate 270) 1 -12700 10160)
+      (pin Round[A]Pad_1200_um (rotate 270) 20 12700 10160)
+    )
+    (padstack Round[A]Pad_1200_um
+      (shape (circle F.Cu 1200))
+      (shape (circle B.Cu 1200))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1500_um
+      (shape (circle F.Cu 1500))
+      (shape (circle B.Cu 1500))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2500_um
+      (shape (circle F.Cu 2500))
+      (shape (circle B.Cu 2500))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net /GND
+      (pins U3-40 U3-21 U3-14 U2-40 U2-21 U2-14 U1-40 U1-21 U1-14)
+    )
+    (net /RST
+      (pins U3-1 U2-1 U1-1)
+    )
+    (net /SVP
+      (pins U3-2 U2-2 U1-2)
+    )
+    (net /SVN
+      (pins U3-23 U2-23 U1-23)
+    )
+    (net /TMS
+      (pins U3-27 U2-27 U1-27)
+    )
+    (net /3.3V
+      (pins U3-8 U2-8 U1-8)
+    )
+    (net /SD2
+      (pins U3-29 U2-29 U1-29)
+    )
+    (net /TCK
+      (pins U3-9 U2-9 U1-9)
+    )
+    (net /CMD
+      (pins U3-30 U2-30 U1-30)
+    )
+    (net /SD3
+      (pins U3-10 U2-10 U1-10)
+    )
+    (net /CLK
+      (pins U3-31 U2-31 U1-31)
+    )
+    (net /SDO
+      (pins U3-11 U2-11 U1-11)
+    )
+    (net /SDI
+      (pins U3-32 U2-32 U1-32)
+    )
+    (net /TDO
+      (pins U3-12 U2-12 U1-12)
+    )
+    (net /5V
+      (pins U3-13 U2-13 U1-13)
+    )
+    (net /TDI
+      (pins U3-36 U2-36 U1-36)
+    )
+    (net /RXD
+      (pins U3-19 U2-19 U1-19)
+    )
+    (net /TXD
+      (pins U3-20 U2-20 U1-20)
+    )
+    (net /IO00
+      (pins U3-34 U2-34 U1-34)
+    )
+    (net /IO32
+      (pins U3-37 U2-37 U1-37)
+    )
+    (net /IO27
+      (pins U3-39 U2-39 U1-39)
+    )
+    (net /IO04
+      (pins U3-35 U2-35 U1-35)
+    )
+    (net /IO25
+      (pins U3-38 U2-38 U1-38)
+    )
+    (net /IO02
+      (pins U3-33 U2-33 U1-33)
+    )
+    (net /IO35
+      (pins U3-24 U2-24 U1-24)
+    )
+    (net /IO33
+      (pins U3-25 U2-25 U1-25)
+    )
+    (net /NC2
+      (pins U3-28 U2-28 U1-28)
+    )
+    (net /IO34
+      (pins U3-26 U2-26 U1-26)
+    )
+    (net /NC1
+      (pins U3-22 U2-22 U1-22)
+    )
+    (net /IO05
+      (pins U3-7 U2-7 U1-7)
+    )
+    (net /IO23
+      (pins U3-6 U2-6 U1-6)
+    )
+    (net /IO16
+      (pins U3-15 U2-15 U1-15)
+    )
+    (net /IO19
+      (pins U3-5 U2-5 U1-5)
+    )
+    (net /IO17
+      (pins U3-16 U2-16 U1-16)
+    )
+    (net /IO18
+      (pins U3-4 U2-4 U1-4)
+    )
+    (net /IO21
+      (pins U3-17 U2-17 U1-17)
+    )
+    (net /IO26
+      (pins U3-3 U2-3 U1-3)
+    )
+    (net /IO22
+      (pins U3-18 U2-18 U1-18)
+    )
+    (class kicad_default "" /0 /02 /04 /16 /17 /18 /19 /21 /22 /23 /25 /26
+      /27 /3.3V /32 /33 /34 /35 /5 /5V /CLK /CMD /GND /IO00 /IO02 /IO04 /IO05
+      /IO16 /IO17 /IO18 /IO19 /IO21 /IO22 /IO23 /IO25 /IO26 /IO27 /IO32 /IO33
+      /IO34 /IO35 /NC1 /NC2 /RST /RXD /SD2 /SD3 /SDI /SDO /SVN /SVP /TCK /TDI
+      /TDO /TMS /TXD
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
