@@ -90,7 +90,7 @@ GND
 Text Label 3775 4875 0    50   ~ 0
 GND
 $Comp
-L in2tech:ESP32-MINI-32 U1
+L wemos-baseplate-rescue:ESP32-MINI-32-in2tech U1
 U 1 1 5E32E116
 P 3125 4675
 F 0 "U1" H 3025 5840 50  0000 C CNN
@@ -181,7 +181,7 @@ GND
 Text Label 5575 4875 0    50   ~ 0
 GND
 $Comp
-L in2tech:ESP32-MINI-32 U2
+L wemos-baseplate-rescue:ESP32-MINI-32-in2tech U2
 U 1 1 5E33F0D3
 P 4925 4675
 F 0 "U2" H 4825 5840 50  0000 C CNN
@@ -272,7 +272,7 @@ GND
 Text Label 7450 4875 0    50   ~ 0
 GND
 $Comp
-L in2tech:ESP32-MINI-32 U3
+L wemos-baseplate-rescue:ESP32-MINI-32-in2tech U3
 U 1 1 5E341442
 P 6800 4675
 F 0 "U3" H 6700 5840 50  0000 C CNN

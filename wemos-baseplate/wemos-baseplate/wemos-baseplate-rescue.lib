@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# wemos-baseplate-rescue_ESP32-MINI-32-in2tech
+# ESP32-MINI-32-in2tech
 #
-DEF wemos-baseplate-rescue_ESP32-MINI-32-in2tech U 0 40 Y Y 1 F N
+DEF ESP32-MINI-32-in2tech U 0 40 Y Y 1 F N
 F0 "U" 0 1050 50 H V C CNN
-F1 "wemos-baseplate-rescue_ESP32-MINI-32-in2tech" 0 -1200 50 H V C CNN
+F1 "ESP32-MINI-32-in2tech" 0 -1200 50 H V C CNN
 F2 "in2tech:QIP-40_1000_ELL" 0 1200 50 H V C CNN
 F3 "" 0 -100 50 H I C CNN
 F4 "I" 0 1050 50 H V C CNN "Spice_Primitive"
