@@ -4,7 +4,7 @@ sensemakers esp32 ontwikkelboard
 
 
 Inline-style: 
-![alt text](https://github.com/Karijn/sensemakers-esp32.git/images/wemos-baseplate.png "Logo Title Text 1")
+![main board](https://github.com/Karijn/sensemakers-esp32/tree/master/images/wemos-baseplate.png "Main board")
 
 
 
