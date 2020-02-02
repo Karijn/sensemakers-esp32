@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 518)
+    (start_pass_no 4429)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -88,10 +88,10 @@
   )
   (class "kicad_default"
     /RST /SVP /SVN /TMS /SD2 /TCK /CMD /SD3
-    /CLK /TDO /TDI /RXD /TXD /IO00 /IO32 /IO27
-    /IO04 /IO25 /IO02 /IO35 /IO33 /NC2 /IO34 /NC1
-    /IO05 /IO23 /IO16 /IO19 /IO17 /IO18 /IO26 GNDPWR
-    +5C +3V3 /SCL /SDA /SD0 /SD1
+    /CLK /TDI /RXD /TXD /IO00 /IO32 /IO27 /IO04
+    /IO25 /IO02 /IO35 /IO33 /NC2 /IO34 /NC1 /IO05
+    /IO23 /IO16 /IO19 /IO17 /IO18 /IO26 /SCL /SDA
+    /SD0 /SD1 /TD0
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -102,6 +102,7 @@
     )
   )
   (class Power
+    /GND /3.3V /5V
     (clearance_class Power)
     (via_rule Power)
     (rule

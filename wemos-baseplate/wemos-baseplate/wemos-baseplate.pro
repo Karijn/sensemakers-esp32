@@ -1,4 +1,4 @@
-update=31/01/2020 21:58:35
+update=02/02/2020 00:28:35
 version=1
 last_client=kicad
 [general]
@@ -195,7 +195,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1
@@ -249,8 +249,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.2
-TrackWidth=0.25
+Clearance=0.25
+TrackWidth=0.3
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

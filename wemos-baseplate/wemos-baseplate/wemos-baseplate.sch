@@ -34,7 +34,7 @@ IO27
 Text Label 4150 1775 0    50   ~ 0
 SD0
 Text Label 4150 1675 0    50   ~ 0
-TDO
+TD0
 Text Label 4150 1475 0    50   ~ 0
 5V
 Text Label 4150 1375 0    50   ~ 0
@@ -180,7 +180,7 @@ IO27
 Text Label 10100 1800 0    50   ~ 0
 SD0
 Text Label 10100 1700 0    50   ~ 0
-TDO
+TD0
 Text Label 10100 1500 0    50   ~ 0
 5V
 Text Label 10100 1400 0    50   ~ 0
@@ -253,60 +253,19 @@ NC1
 Text Label 7500 2600 2    50   ~ 0
 NC2
 $Comp
-L power:GNDPWR #PWR02
-U 1 1 5E361361
-P 3700 6875
-F 0 "#PWR02" H 3700 6675 50  0001 C CNN
-F 1 "GNDPWR" H 3704 6721 50  0000 C CNN
-F 2 "" H 3700 6825 50  0001 C CNN
-F 3 "" H 3700 6825 50  0001 C CNN
-	1    3700 6875
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5C #PWR01
-U 1 1 5E361E40
-P 3625 6450
-F 0 "#PWR01" H 3625 6300 50  0001 C CNN
-F 1 "+5C" H 3640 6623 50  0000 C CNN
-F 2 "" H 3625 6450 50  0001 C CNN
-F 3 "" H 3625 6450 50  0001 C CNN
-	1    3625 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR03
-U 1 1 5E362CE6
-P 3825 6450
-F 0 "#PWR03" H 3825 6300 50  0001 C CNN
-F 1 "+3.3V" H 3840 6623 50  0000 C CNN
-F 2 "" H 3825 6450 50  0001 C CNN
-F 3 "" H 3825 6450 50  0001 C CNN
-	1    3825 6450
-	1    0    0    -1  
-$EndComp
-Text Label 3825 6575 0    50   ~ 0
-3.3V
-Text Label 3625 6575 2    50   ~ 0
-5V
-Wire Wire Line
-	3700 6875 3700 6775
-Text Label 3700 6775 0    50   ~ 0
-GND
-$Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5E36701C
-P 5250 6650
-F 0 "J3" V 5425 6800 50  0000 R CNN
-F 1 "Conn_01x04" V 5350 6825 50  0000 R CNN
-F 2 "Connectors:Grove_1x04" H 5250 6650 50  0001 C CNN
-F 3 "~" H 5250 6650 50  0001 C CNN
-	1    5250 6650
+P 5150 3300
+F 0 "J3" V 5325 3450 50  0000 R CNN
+F 1 "Conn_01x04" V 5250 3475 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 5150 3300 50  0001 C CNN
+F 3 "~" H 5150 3300 50  0001 C CNN
+	1    5150 3300
 	0    -1   -1   0   
 $EndComp
-Text Label 5450 6850 3    50   ~ 0
+Text Label 5350 3500 3    50   ~ 0
 GND
-Text Label 5350 6850 3    50   ~ 0
+Text Label 5250 3500 3    50   ~ 0
 3.3V
 Text Label 7125 1900 0    50   ~ 0
 GND
@@ -327,7 +286,7 @@ GND
 Text Label 7125 1500 0    50   ~ 0
 5V
 Text Label 7125 1700 0    50   ~ 0
-TDO
+TD0
 Text Label 7125 1800 0    50   ~ 0
 SD0
 Text Label 7125 2000 0    50   ~ 0
@@ -348,66 +307,66 @@ Text Label 7125 2700 0    50   ~ 0
 SD1
 Text Label 7125 2800 0    50   ~ 0
 CLK
-Text Label 5150 6850 3    50   ~ 0
+Text Label 5050 3500 3    50   ~ 0
 SCL
-Text Label 5250 6850 3    50   ~ 0
+Text Label 5150 3500 3    50   ~ 0
 SDA
 $Comp
 L Connector_Generic:Conn_01x04 J5
 U 1 1 5E386922
-P 6200 6650
-F 0 "J5" V 6375 6800 50  0000 R CNN
-F 1 "Conn_01x04" V 6300 6800 50  0000 R CNN
-F 2 "Connectors:Grove_1x04" H 6200 6650 50  0001 C CNN
-F 3 "~" H 6200 6650 50  0001 C CNN
-	1    6200 6650
+P 5900 3300
+F 0 "J5" V 6075 3450 50  0000 R CNN
+F 1 "Conn_01x04" V 6000 3450 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 5900 3300 50  0001 C CNN
+F 3 "~" H 5900 3300 50  0001 C CNN
+	1    5900 3300
 	0    -1   -1   0   
 $EndComp
-Text Label 6400 6850 3    50   ~ 0
+Text Label 6100 3500 3    50   ~ 0
 GND
-Text Label 6300 6850 3    50   ~ 0
+Text Label 6000 3500 3    50   ~ 0
 3.3V
-Text Label 6100 6850 3    50   ~ 0
+Text Label 5800 3500 3    50   ~ 0
 SCL
-Text Label 6200 6850 3    50   ~ 0
+Text Label 5900 3500 3    50   ~ 0
 SDA
 $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 5E387837
-P 6200 7250
-F 0 "J6" V 6375 7400 50  0000 R CNN
-F 1 "Conn_01x04" V 6300 7400 50  0000 R CNN
-F 2 "Connectors:Grove_1x04" H 6200 7250 50  0001 C CNN
-F 3 "~" H 6200 7250 50  0001 C CNN
-	1    6200 7250
+P 5900 4050
+F 0 "J6" V 6075 4200 50  0000 R CNN
+F 1 "Conn_01x04" V 6000 4200 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 5900 4050 50  0001 C CNN
+F 3 "~" H 5900 4050 50  0001 C CNN
+	1    5900 4050
 	0    -1   -1   0   
 $EndComp
-Text Label 6400 7450 3    50   ~ 0
+Text Label 6100 4250 3    50   ~ 0
 GND
-Text Label 6300 7450 3    50   ~ 0
+Text Label 6000 4250 3    50   ~ 0
 3.3V
-Text Label 6100 7450 3    50   ~ 0
+Text Label 5800 4250 3    50   ~ 0
 SCL
-Text Label 6200 7450 3    50   ~ 0
+Text Label 5900 4250 3    50   ~ 0
 SDA
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 5E38830E
-P 5225 7275
-F 0 "J4" V 5400 7425 50  0000 R CNN
-F 1 "Conn_01x04" V 5325 7425 50  0000 R CNN
-F 2 "Connectors:Grove_1x04" H 5225 7275 50  0001 C CNN
-F 3 "~" H 5225 7275 50  0001 C CNN
-	1    5225 7275
+P 5150 4050
+F 0 "J4" V 5325 4200 50  0000 R CNN
+F 1 "Conn_01x04" V 5250 4200 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 5150 4050 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+	1    5150 4050
 	0    -1   -1   0   
 $EndComp
-Text Label 5425 7475 3    50   ~ 0
+Text Label 5350 4250 3    50   ~ 0
 GND
-Text Label 5325 7475 3    50   ~ 0
+Text Label 5250 4250 3    50   ~ 0
 3.3V
-Text Label 5125 7475 3    50   ~ 0
+Text Label 5050 4250 3    50   ~ 0
 SCL
-Text Label 5225 7475 3    50   ~ 0
+Text Label 5150 4250 3    50   ~ 0
 SDA
 Text Label 675  1575 2    50   ~ 0
 3.3V
@@ -472,7 +431,7 @@ IO25
 Text Label 1175 1775 0    50   ~ 0
 IO27
 Text Label 1175 1675 0    50   ~ 0
-TDO
+TD0
 Text Label 10475 1600 2    50   ~ 0
 3.3V
 Text Label 10475 1500 2    50   ~ 0
@@ -536,11 +495,7 @@ IO25
 Text Label 10975 1800 0    50   ~ 0
 IO27
 Text Label 10975 1700 0    50   ~ 0
-TDO
-Wire Wire Line
-	3625 6450 3625 6575
-Wire Wire Line
-	3825 6450 3825 6575
+TD0
 $Comp
 L Connector_Generic:Conn_02x16_Odd_Even J1
 U 1 1 5E3D07F8
@@ -563,4 +518,175 @@ F 3 "~" H 10775 1700 50  0001 C CNN
 	1    10775 1700
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J7
+U 1 1 5E3611FC
+P 1400 3300
+F 0 "J7" V 1575 3450 50  0000 R CNN
+F 1 "Conn_01x04" V 1500 3450 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 1400 3300 50  0001 C CNN
+F 3 "~" H 1400 3300 50  0001 C CNN
+	1    1400 3300
+	0    -1   -1   0   
+$EndComp
+Text Label 1600 3500 3    50   ~ 0
+GND
+Text Label 1500 3500 3    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 5E36125E
+P 2150 3300
+F 0 "J9" V 2325 3450 50  0000 R CNN
+F 1 "Conn_01x04" V 2250 3450 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 2150 3300 50  0001 C CNN
+F 3 "~" H 2150 3300 50  0001 C CNN
+	1    2150 3300
+	0    -1   -1   0   
+$EndComp
+Text Label 2350 3500 3    50   ~ 0
+GND
+Text Label 2250 3500 3    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x04 J11
+U 1 1 5E3618D9
+P 2900 3300
+F 0 "J11" V 3075 3450 50  0000 R CNN
+F 1 "Conn_01x04" V 3000 3450 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 2900 3300 50  0001 C CNN
+F 3 "~" H 2900 3300 50  0001 C CNN
+	1    2900 3300
+	0    -1   -1   0   
+$EndComp
+Text Label 3100 3500 3    50   ~ 0
+GND
+Text Label 3000 3500 3    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x04 J13
+U 1 1 5E361C83
+P 3650 3300
+F 0 "J13" V 3825 3450 50  0000 R CNN
+F 1 "Conn_01x04" V 3750 3450 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 3650 3300 50  0001 C CNN
+F 3 "~" H 3650 3300 50  0001 C CNN
+	1    3650 3300
+	0    -1   -1   0   
+$EndComp
+Text Label 3850 3500 3    50   ~ 0
+GND
+Text Label 3750 3500 3    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x04 J15
+U 1 1 5E3629F2
+P 4400 3300
+F 0 "J15" V 4575 3450 50  0000 R CNN
+F 1 "Conn_01x04" V 4500 3450 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 4400 3300 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 3500 3    50   ~ 0
+GND
+Text Label 4500 3500 3    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5E362E1E
+P 1400 4050
+F 0 "J8" V 1575 4200 50  0000 R CNN
+F 1 "Conn_01x04" V 1500 4200 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 1400 4050 50  0001 C CNN
+F 3 "~" H 1400 4050 50  0001 C CNN
+	1    1400 4050
+	0    -1   -1   0   
+$EndComp
+Text Label 1600 4250 3    50   ~ 0
+GND
+Text Label 1500 4250 3    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5E363222
+P 2150 4050
+F 0 "J10" V 2325 4200 50  0000 R CNN
+F 1 "Conn_01x04" V 2250 4200 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 2150 4050 50  0001 C CNN
+F 3 "~" H 2150 4050 50  0001 C CNN
+	1    2150 4050
+	0    -1   -1   0   
+$EndComp
+Text Label 2350 4250 3    50   ~ 0
+GND
+Text Label 2250 4250 3    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x04 J12
+U 1 1 5E364292
+P 2900 4050
+F 0 "J12" V 3075 4200 50  0000 R CNN
+F 1 "Conn_01x04" V 3000 4200 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 2900 4050 50  0001 C CNN
+F 3 "~" H 2900 4050 50  0001 C CNN
+	1    2900 4050
+	0    -1   -1   0   
+$EndComp
+Text Label 3100 4250 3    50   ~ 0
+GND
+Text Label 3000 4250 3    50   ~ 0
+3.3V
+Text Label 1300 3500 3    50   ~ 0
+IO33
+Text Label 1400 3500 3    50   ~ 0
+IO32
+Text Label 2050 3500 3    50   ~ 0
+IO26
+Text Label 2150 3500 3    50   ~ 0
+IO25
+Text Label 2800 3500 3    50   ~ 0
+TMS
+Text Label 2900 3500 3    50   ~ 0
+IO27
+Text Label 3550 3500 3    50   ~ 0
+TD0
+Text Label 3650 3500 3    50   ~ 0
+IO04
+Text Label 4300 3500 3    50   ~ 0
+IO34
+Text Label 4400 3500 3    50   ~ 0
+IO35
+Text Label 1300 4250 3    50   ~ 0
+SVP
+Text Label 1400 4250 3    50   ~ 0
+SVN
+Text Label 2050 4250 3    50   ~ 0
+IO18
+Text Label 2150 4250 3    50   ~ 0
+IO19
+Text Label 2800 4250 3    50   ~ 0
+IO16
+Text Label 2900 4250 3    50   ~ 0
+IO17
+$Comp
+L Connector_Generic:Conn_01x04 J14
+U 1 1 5E365F58
+P 3650 4050
+F 0 "J14" V 3825 4200 50  0000 R CNN
+F 1 "Conn_01x04" V 3750 4200 50  0000 R CNN
+F 2 "Connectors:Grove_1x04" H 3650 4050 50  0001 C CNN
+F 3 "~" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	0    -1   -1   0   
+$EndComp
+Text Label 3850 4250 3    50   ~ 0
+GND
+Text Label 3750 4250 3    50   ~ 0
+3.3V
+Text Label 3550 4250 3    50   ~ 0
+RXD
+Text Label 3650 4250 3    50   ~ 0
+TXD
 $EndSCHEMATC
