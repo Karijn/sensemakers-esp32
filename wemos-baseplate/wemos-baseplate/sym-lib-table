@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name in2tech)(type Legacy)(uri C:/Users/Karij/Documents/Arduino/esp-things/sensemakers-esp32/wemos-baseplate/wemos-baseplate/wemos-baseplate-cache.lib)(options "")(descr ""))
-  (lib (name wemos-baseplate-rescue)(type Legacy)(uri ${KIPRJMOD}/wemos-baseplate-rescue.lib)(options "")(descr ""))
+  (lib (name wemos-baseplate-rescue)(type Legacy)(uri ${KIPRJMOD}/ttgo-baseplate-rescue.lib)(options "")(descr ""))
 )

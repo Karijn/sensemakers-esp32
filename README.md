@@ -2,6 +2,12 @@
 sensemakers esp32 ontwikkelboard
 
 
+
+Inline-style: 
+![alt text](https://github.com/Karijn/sensemakers-esp32.git/images/wemos-baseplate.png "Logo Title Text 1")
+
+
+
 Nog wat puntjes:
 
 | who| Status  | Item           | comments  |
