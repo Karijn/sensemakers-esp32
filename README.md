@@ -4,8 +4,9 @@ sensemakers esp32 ontwikkelboard
 
 
 
-![main board](https://github.com/Karijn/sensemakers-esp32/images/wemos-baseplate.png)
-![TTgO display board](/sensemakers-esp32/images/ttgo-baseplate.png)
+![main board]((https://github.com/Karijn/sensemakers-esp32/blob/master/images/ttgo-baseplate.png) 
+
+![TTgO display board](https://github.com/Karijn/sensemakers-esp32/blob/master/images/ttgo-baseplate.png)
 
 
 
