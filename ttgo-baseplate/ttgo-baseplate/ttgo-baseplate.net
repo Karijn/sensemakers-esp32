@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Karij\Documents\Arduino\esp-things\sensemakers-esp32\ttgo-baseplate\ttgo-baseplate\ttgo-baseplate.sch)
-    (date "04/02/2020 21:04:41")
+    (date "06/02/2020 12:55:37")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

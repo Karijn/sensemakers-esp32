@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 457)
+    (start_pass_no 1134)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -21,14 +21,14 @@
     (layer_rule In1.Cu
       (active off)
       (preferred_direction vertical)
-      (preferred_direction_trace_costs 0.0)
-      (against_preferred_direction_trace_costs 0.0)
+      (preferred_direction_trace_costs 0.1)
+      (against_preferred_direction_trace_costs 0.1)
     )
     (layer_rule In2.Cu
       (active off)
       (preferred_direction vertical)
-      (preferred_direction_trace_costs 0.0)
-      (against_preferred_direction_trace_costs 0.0)
+      (preferred_direction_trace_costs 0.1)
+      (against_preferred_direction_trace_costs 0.1)
     )
     (layer_rule B.Cu
       (active on)
@@ -68,19 +68,25 @@
     (attach off)
   )
   (via 
+    "Via[0-3]_800:400_um-Power" "Via[0-3]_800:400_um" Power
+  )
+  (via 
     "Via[0-3]_800:400_um" "Via[0-3]_800:400_um" default
   )
   (via 
     "Via[0-3]_800:400_um-kicad_default" "Via[0-3]_800:400_um" "kicad_default"
   )
   (via 
-    "Via[0-3]_800:400_um-power" "Via[0-3]_800:400_um" power
+    "Via[0-3]_800:400_um-power" "Via[0-3]_800:400_um" Power
   )
   (via 
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
   (via 
     "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    Power "Via[0-3]_800:400_um-Power"
   )
   (via_rule
     power "Via[0-3]_800:400_um-power"
@@ -112,8 +118,8 @@
     )
   )
   (class "kicad_default"
-    /GND /3.3V /5V /RST /TXD /SVP /RXD /IO26
-    /SCL /IO18 /SDA /IO19 /IO17 /IO23 /IO16 /IO05
+    /RST /TXD /SVP /RXD /IO26 /SCL /IO18 /SDA
+    /IO19 /IO17 /IO23 /IO16 /IO05 /GND /3.3V /5V
     /TCK /TD0 /NC1 /IO27 /SVN /IO25 /IO35 /IO32
     /IO33 /TDI /IO34 /IO04 /TMS /IO00 /NC2 /IO02
     (clearance_class "kicad_default")
@@ -135,8 +141,28 @@
       (use_layer F.Cu B.Cu)
     )
   )
+  (class Power
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 0.0)
+    )
+    (layer_rule In1.Cu
+      (rule 
+        (width 250.0) 
+      )
+    )
+    (layer_rule In2.Cu
+      (rule 
+        (width 250.0) 
+      )
+    )
+    (circuit 
+      (use_layer In1.Cu In2.Cu)
+    )
+  )
   (class power
-    (clearance_class power)
+    (clearance_class Power)
     (via_rule power)
     (rule
       (width 250.0)
