@@ -675,7 +675,7 @@
     (descr https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf)
     (tags Grove-1x04)
     (path /5E364292)
-    (fp_text reference J12 (at -4.286 7.239 90) (layer F.SilkS)
+    (fp_text reference J12 (at -4.4638 7.8486 180) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.15)))
     )
     (fp_text value Conn_01x04 (at 4.19 2.83 90) (layer F.Fab)
