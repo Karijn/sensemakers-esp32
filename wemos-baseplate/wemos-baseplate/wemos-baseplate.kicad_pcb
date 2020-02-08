@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 92)
+    (drawings 94)
     (tracks 1149)
     (zones 0)
     (modules 18)
@@ -1697,6 +1697,12 @@
     )
   )
 
+  (gr_text "RST     -     TxD\n\nSVP     -     RxD\n\nIO26    -     SCL\n\nIO18    -     SDA\n\nIO19    -    IO17\n\nIO23    -    IO16\n\nIO05    -     GND\n\n3.3V    -      5V\n\nTCK     -     TD0\n\nNC1     -    IO27\n\nSVN     -    IO25\n\nIO35    -    IO32\n\nIO33    -     TDI\n\nIO34    -    IO04\n\nTMS     -    IO00\n\nNC2     -    IO02" (at 198.628 100.2284) (layer B.SilkS) (tstamp 5E3EE18C)
+    (effects (font (size 0.75 0.7) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "TxD     -     RST\n                 \nRxD     -     SVP\n                 \nSCL     -    IO26\n                 \nSDA     -    IO18\n                 \nIO17    -    IO19\n                 \nIO16    -    IO23\n                 \nGND     -    IO05\n                 \n5V      -    3.3V\n                 \nTD0     -     TCK\n                 \nIO27    -     NC1\n                 \nIO25    -     SVN\n                 \nIO32    -    IO35\n                 \nTDI     -    IO33\n                 \nIO04    -    IO34\n                 \nIO00    -     TMS\n                 \nIO02    -     NC2" (at 74.7776 100.1776) (layer B.SilkS)
+    (effects (font (size 0.75 0.7) (thickness 0.15)) (justify mirror))
+  )
   (gr_text k.wessing@in2tech.nl (at 162.1028 122.5804) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
