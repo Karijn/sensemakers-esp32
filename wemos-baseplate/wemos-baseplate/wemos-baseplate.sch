@@ -1,15 +1,16 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:wemos-baseplate-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Wemos-ESP32-Base Plate"
+Date "2020-02-09"
+Rev "1.1"
+Comp "Sensemakers Amsterdam"
+Comment1 "Revisions: Gijs Mos"
+Comment2 "Author: Karijn Wessing"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -90,7 +91,7 @@ GND
 Text Label 4150 1875 0    50   ~ 0
 GND
 $Comp
-L in2tech2:ESP32-MINI-32 U1
+L in2tech:ESP32-MINI-32 U1
 U 1 1 5E32E116
 P 2850 1675
 F 0 "U1" H 2750 2840 50  0000 C CNN
@@ -143,7 +144,7 @@ SVN
 Text Label 4525 1900 2    50   ~ 0
 GND
 $Comp
-L in2tech2:ESP32-MINI-32 U2
+L in2tech:ESP32-MINI-32 U2
 U 1 1 5E33F0D3
 P 5825 1700
 F 0 "U2" H 5725 2865 50  0000 C CNN
@@ -236,7 +237,7 @@ GND
 Text Label 10100 1900 0    50   ~ 0
 GND
 $Comp
-L in2tech2:ESP32-MINI-32 U3
+L in2tech:ESP32-MINI-32 U3
 U 1 1 5E341442
 P 8800 1700
 F 0 "U3" H 8700 2865 50  0000 C CNN
@@ -689,4 +690,48 @@ Text Label 3550 4250 3    50   ~ 0
 RXD
 Text Label 3650 4250 3    50   ~ 0
 TXD
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5E402162
+P 1025 7350
+F 0 "MH1" H 1125 7350 50  0000 L CNN
+F 1 "MountingHole" H 1125 7305 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1025 7350 50  0001 C CNN
+F 3 "~" H 1025 7350 50  0001 C CNN
+	1    1025 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5E40223A
+P 1850 7350
+F 0 "MH2" H 1950 7350 50  0000 L CNN
+F 1 "MountingHole" H 1950 7305 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1850 7350 50  0001 C CNN
+F 3 "~" H 1850 7350 50  0001 C CNN
+	1    1850 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5E402432
+P 2575 7350
+F 0 "MH3" H 2675 7350 50  0000 L CNN
+F 1 "MountingHole" H 2675 7305 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2575 7350 50  0001 C CNN
+F 3 "~" H 2575 7350 50  0001 C CNN
+	1    2575 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5E40257A
+P 3325 7350
+F 0 "MH4" H 3425 7350 50  0000 L CNN
+F 1 "MountingHole" H 3425 7305 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3325 7350 50  0001 C CNN
+F 3 "~" H 3325 7350 50  0001 C CNN
+	1    3325 7350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

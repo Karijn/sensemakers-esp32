@@ -1,4 +1,8 @@
 *.bck
 *.sch-bak
 *.kicad_pcb-bak
-gerber
+gerber*/
+*.dsn
+*rescue.scm
+*rescue.lib
+gerber*.zip

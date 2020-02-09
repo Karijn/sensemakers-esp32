@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x04
+# Connector_Generic:Conn_01x04
 #
-DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -24,11 +24,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x16_Odd_Even
+# Connector_Generic:Conn_02x16_Odd_Even
 #
-DEF Connector_Generic_Conn_02x16_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x16_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 800 50 H V C CNN
-F1 "Connector_Generic_Conn_02x16_Odd_Even" 50 -900 50 H V C CNN
+F1 "Connector_Generic:Conn_02x16_Odd_Even" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -103,11 +103,26 @@ X Pin_9 9 -200 300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# in2tech2_ESP32-MINI-32
+# Mechanical:MountingHole
 #
-DEF in2tech2_ESP32-MINI-32 U 0 40 Y Y 1 F N
+DEF Mechanical:MountingHole MH 0 40 Y Y 1 F N
+F0 "MH" 0 200 50 H V C CNN
+F1 "Mechanical:MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# in2tech:ESP32-MINI-32
+#
+DEF in2tech:ESP32-MINI-32 U 0 40 Y Y 1 F N
 F0 "U" 0 1050 50 H V C CNN
-F1 "in2tech2_ESP32-MINI-32" 0 -1200 50 H V C CNN
+F1 "in2tech:ESP32-MINI-32" 0 -1200 50 H V C CNN
 F2 "in2tech:QIP-40_1000_ELL" -50 1150 50 H V C CNN
 F3 "" 0 -100 50 H I C CNN
 F4 "I" 0 1050 50 H V C CNN "Spice_Primitive"
